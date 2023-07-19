@@ -55,7 +55,9 @@ const TaskForm = () => {
               value={values.title}
               required
             />
+
             <label className="mt-3 p-1">description</label>
+
             <textarea
               className="bg-zinc-700 py-2 px-1 rounded border-r-zinc-200 outline-slate-400 w-full "
               name="description"
